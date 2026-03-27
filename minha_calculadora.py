@@ -11,7 +11,7 @@ def main():
     x = int(input("x? "))
     y = int(input("y? "))
     s = soma(x, y)
-    print(f'Soma: {s}')
+    print(f'Soma da alegria: {s}')
     
     t = subtracao(x, y)
     print(f'Subtração: {t}')
