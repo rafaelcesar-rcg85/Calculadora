@@ -17,7 +17,7 @@ def main():
     print(f'Subtração: {t}')
     
     m = multiplicacao(x, y)
-    print(f'Multiplicação: {m}')
+    print(f'Multiplicação da alegria: {m}')
     
     
 main()
