@@ -3,6 +3,10 @@ def soma(a, b):
 
 def subtracao(a, b):
     return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
 def main():
     x = int(input("x? "))
     y = int(input("y? "))
@@ -11,5 +15,9 @@ def main():
     
     t = subtracao(x, y)
     print(f'Subtração: {t}')
+    
+    m = multiplicacao(x, y)
+    print(f'Multiplicação: {m}')
+    
     
 main()
